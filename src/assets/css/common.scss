@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: PingFang SC, PingFang SC;
+}
+html,body{
+    margin:0;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}   
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.ellipsis {
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+input {
+    outline: none;
+    border: none;
+}
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+table {
+    width: 100%;
+}
+
+.router {
+    width: 100px;
+    height: 80px;
+    background: #f2f3ff;
+    color: #0052d9;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 14px;
+    position: fixed;
+    left: 30px;
+    bottom: 60px;
+    cursor: pointer;
+  }
+
+
+  
